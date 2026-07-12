@@ -1,0 +1,25 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic[email]==2.7.4
+pydantic-settings==2.3.3
+sqlalchemy[asyncio]==2.0.31
+asyncpg==0.29.0
+alembic==1.13.1
+passlib[bcrypt]==1.7.4
+# passlib 1.7.4 is incompatible with bcrypt 5.x.
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.9
+rq==1.16.2
+redis==5.0.7
+minio==7.2.7
+jinja2==3.1.4
+weasyprint==62.3
+reportlab==4.2.2
+xlsxwriter==3.2.0
+httpx==0.27.0
+python-dotenv==1.0.1
+rq-scheduler==0.13.1
+aiofiles==23.2.1
+pillow==10.4.0
+psycopg2-binary==2.9.9

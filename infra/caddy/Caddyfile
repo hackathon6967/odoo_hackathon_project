@@ -1,0 +1,14 @@
+:80 {
+  # API reverse proxy
+  handle /api/* {
+    uri strip_prefix /api
+    reverse_proxy api:8000
+  }
+
+
+
+  # Frontend (Vite dev server)
+  handle {
+    reverse_proxy web:5173
+  }
+}
